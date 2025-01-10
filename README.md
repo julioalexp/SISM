@@ -66,7 +66,7 @@ AND C.client_SDE = 1
 | Kettie Klemke   | 371000013225984      | 519-33226-5 | 7896.4                 |
 | Arney Ramsdale  | 6.29999976369357E+15 | 551-74460-5 | 1789.1                 |
 
-### Notification:
+### Announcement/Copyright Notice:
 This is an original project, legally registered, and has been submitted for the National Public Innovation Award. Any attempt to reproduce, appropriate, or use its content or concepts without authorization is subject to legal action. Respect for the intellectual property of this work is appreciated.
 
 For any futher information about the project, please do not hesitate to contact me.
