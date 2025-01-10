@@ -1,6 +1,8 @@
 # SISM
 Personal project for National Public Innovation Award - DR
 
+* Public Policy: Integrated Multiple Services System
+
 ![](https://github.com/julioalexp/SISM/blob/main/Captura.PNG)
 
 # Problem Analysis
@@ -38,3 +40,33 @@ The proposal to integrate the utility bills of CAASD, EDEESTE, and waste collect
 The success of this initiative could serve as a model for other regions and public services, demonstrating that innovation and collaboration are key to improving sustainability in the public sector. Reducing reliance on government subsidies and avoiding tax increases would contribute to more efficient management of public finances, benefiting the community as a whole. In conclusion, the integration of water, electricity, and waste collection bills is a promising solution that deserves serious consideration and a concerted effort for its implementation.
 
 ## Hands on backend and data analysis using SQL
+
+For this project, we use fictional data or a simulated database to support our analysis and testing.
+
+![](https://github.com/julioalexp/SISM/blob/main/Diagrama%20de%20Venn%20(2).png)
+
+By doing an inner joing between these databases we can gather a powerfull data/information for a public policy maker..
+We selected various columns but the main one is "Total_payment_services" which is project idea to unify payment of public services.
+
+```sql
+SELECT Full_name,  credit_card, cedula as ID, (charge_pay+tribute+charge_today) as Total_payment_services
+FROM EDEESTE e
+INNER JOIN CAASD c
+	ON e.contract_id = c.cedula
+INNER JOIN ASDE a
+	ON e.contract_id = a.tax_number
+WHERE e.province LIKE '%Este%'
+AND C.client_SDE = 1
+```
+| Full_name       | credit_card          | ID          | Total_payment_services |
+|-----------------|----------------------|-------------|------------------------|
+| Dominic Marrow  | 5.04000022327171E+18 | 176-31440-1 | 4495.9                 |
+| Glenda Konert   | 374000014327808      | 283-96381-0 | 6042.3                 |
+| Christos Lewtey | 5.46000026048922E+15 | 294-67209-5 | 5511.7                 |
+| Kettie Klemke   | 371000013225984      | 519-33226-5 | 7896.4                 |
+| Arney Ramsdale  | 6.29999976369357E+15 | 551-74460-5 | 1789.1                 |
+
+### Notification:
+This is an original project, legally registered, and has been submitted for the National Public Innovation Award. Any attempt to reproduce, appropriate, or use its content or concepts without authorization is subject to legal action. Respect for the intellectual property of this work is appreciated.
+
+For any futher information about the project, please do not hesitate to contact me.
