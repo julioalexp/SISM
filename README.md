@@ -35,7 +35,7 @@ Likewise, the objective extends to integrating waste collection services into th
 
 ## Feasibility analysis
 
-The proposal to integrate the utility bills of CAASD, EDEESTE, and waste collection into a single consolidated invoice presents a significant opportunity to enhance the operational and financial efficiency of these institutions. This strategy could increase revenue collection, simplify administrative processes, and improve the user experience. The implementation will require careful planning, investment in technology, staff training, and legal and regulatory adjustments to ensure compliance and protection of user data. A well-designed communication and awareness campaign will be crucial to gaining public acceptance.
+The proposal to integrate the utility bills of ``CAASD``, ``EDEESTE``, and waste collection into a single consolidated invoice presents a significant opportunity to enhance the operational and financial efficiency of these institutions. This strategy could increase revenue collection, simplify administrative processes, and improve the user experience. The implementation will require careful planning, investment in technology, staff training, and legal and regulatory adjustments to ensure compliance and protection of user data. A well-designed communication and awareness campaign will be crucial to gaining public acceptance.
 
 The success of this initiative could serve as a model for other regions and public services, demonstrating that innovation and collaboration are key to improving sustainability in the public sector. Reducing reliance on government subsidies and avoiding tax increases would contribute to more efficient management of public finances, benefiting the community as a whole. In conclusion, the integration of water, electricity, and waste collection bills is a promising solution that deserves serious consideration and a concerted effort for its implementation.
 
@@ -46,7 +46,7 @@ For this project, we use fictional data or a simulated database to support our a
 ![](https://github.com/julioalexp/SISM/blob/main/Diagrama%20de%20Venn%20(2).png)
 
 By doing an inner joing between these databases we can gather a powerfull data/information for a public policy maker..
-We selected various columns but the main one is "Total_payment_services" which is project idea to unify payment of public services.
+We selected various columns but the main one is ``Total_payment_services`` which is project idea to unify payment of public services.
 
 ```sql
 SELECT Full_name,  credit_card, cedula as ID, (charge_pay+tribute+charge_today) as Total_payment_services
