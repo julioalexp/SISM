@@ -72,3 +72,9 @@ This is an original project, legally registered, and has been submitted for the 
 For any futher information about the project, please do not hesitate to contact me.
 
 JAPM
+
+### National impact on media
+
+https://ehplus.do/cobro-de-la-basura-se-hara-a-traves-de-las-distribuidoras-de-electricidad-federacion-dominicana-de-distritos-municipales/
+https://elnuevodiario.com.do/electricidad-basura-y-agua-por-que-el-estado-no-ha-sido-capaz-de-unir-el-pago-de-los-tres-servicios/
+https://map.gob.do/2024/10/31/el-map-instruye-a-las-entidades-publicas-hacer-levantamiento-sobre-cumplimiento-de-pago-de-servicios-publicos-de-los-empleados-del-estado/
